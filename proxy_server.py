@@ -78,3 +78,7 @@ def start_proxy_server(host='0.0.0.0', port=44400):
         for worker_conn in workers:
             worker_conn.close()
         server.close()
+
+
+if __name__=="__main__":
+    start_proxy_server()
