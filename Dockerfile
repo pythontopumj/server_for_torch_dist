@@ -12,7 +12,7 @@ COPY proxy_server.py /app/proxy_server.py
 WORKDIR /app
 
 # Expose the ports for master and workers
-EXPOSE 6000
+EXPOSE 44400
 EXPOSE 6001-6010
 
 # Set the entrypoint to run the proxy server
